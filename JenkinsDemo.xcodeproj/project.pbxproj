@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2DD80471E8DAFD7009A575C /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = C2DD80461E8DAFD7009A575C /* Jenkinsfile */; };
 		C2DDD5C91E8DAD1C00F9E40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DDD5C81E8DAD1C00F9E40B /* main.m */; };
 		C2DDD5CC1E8DAD1C00F9E40B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DDD5CB1E8DAD1C00F9E40B /* AppDelegate.m */; };
 		C2DDD5CF1E8DAD1C00F9E40B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DDD5CE1E8DAD1C00F9E40B /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2DD80461E8DAFD7009A575C /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		C2DDD5C41E8DAD1C00F9E40B /* JenkinsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DDD5C81E8DAD1C00F9E40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2DDD5CA1E8DAD1C00F9E40B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		C2DDD5BB1E8DAD1C00F9E40B = {
 			isa = PBXGroup;
 			children = (
+				C2DD80461E8DAFD7009A575C /* Jenkinsfile */,
 				C2DDD5C61E8DAD1C00F9E40B /* JenkinsDemo */,
 				C2DDD5E01E8DAD1C00F9E40B /* JenkinsDemoTests */,
 				C2DDD5EB1E8DAD1C00F9E40B /* JenkinsDemoUITests */,
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DDD5D71E8DAD1C00F9E40B /* LaunchScreen.storyboard in Resources */,
+				C2DD80471E8DAFD7009A575C /* Jenkinsfile in Resources */,
 				C2DDD5D41E8DAD1C00F9E40B /* Assets.xcassets in Resources */,
 				C2DDD5D21E8DAD1C00F9E40B /* Main.storyboard in Resources */,
 			);
@@ -516,6 +520,7 @@
 				C2DDD5F31E8DAD1C00F9E40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2DDD5F41E8DAD1C00F9E40B /* Build configuration list for PBXNativeTarget "JenkinsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				C2DDD5F61E8DAD1C00F9E40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2DDD5F71E8DAD1C00F9E40B /* Build configuration list for PBXNativeTarget "JenkinsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				C2DDD5F91E8DAD1C00F9E40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
